@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.deliverect/deliverect",
+  "title": "Deliverect",
+  "description": "Ask about your restaurant's sales, orders, menus and opening hours, using live Deliverect data.",
+  "version": "1.0.1",
+  "websiteUrl": "https://www.deliverect.com",
+  "repository": {
+    "url": "https://github.com/Deliverect/mcp-server-guide",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.deliverect.com/images/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.deliverect.com/mcp"
+    }
+  ]
+}
