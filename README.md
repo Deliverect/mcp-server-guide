@@ -78,6 +78,14 @@ See [Deliverect for Cursor](https://github.com/Deliverect/cursor-plugin), or add
 }
 ```
 
+### ChatGPT
+
+Add **Deliverect** from the [ChatGPT plugin directory](https://chatgpt.com/plugins/plugin_asdk_app_6aec531ab0f8819191ebb5167e77f353).
+
+### Perplexity
+
+On a paid plan, add a custom remote connector with the URL `https://mcp.deliverect.com/mcp`. In an organization, an admin has to allow members to add custom connectors first.
+
 ### Other MCP clients
 
 Any client that supports remote MCP servers over Streamable HTTP with OAuth sign-in can connect to `https://mcp.deliverect.com/mcp`. The server supports dynamic client registration and client ID metadata documents, so you don't need a client ID.
