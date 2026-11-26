@@ -28,7 +28,9 @@ The server can look up orders and their status, billing and product sales report
 
 ### GitHub Copilot in VS Code
 
-Run **MCP: Add Server** from the Command Palette, choose **HTTP**, and enter `https://mcp.deliverect.com/mcp`. Or add it to `.vscode/mcp.json` (or your user `mcp.json`):
+On the [Deliverect listing in the GitHub MCP Registry](https://github.com/mcp/com.deliverect/deliverect), open the menu on **Install MCP server** and choose **Install in VS Code**. Or search for `@mcp deliverect` in the Extensions view. Then select **Install**, and **Allow** when VS Code asks to sign you in.
+
+To add it by hand, run **MCP: Add Server** from the Command Palette, choose **HTTP**, and enter `https://mcp.deliverect.com/mcp`. Or add it to `.vscode/mcp.json` (or your user `mcp.json`):
 
 ```json
 {
@@ -40,6 +42,10 @@ Run **MCP: Add Server** from the Command Palette, choose **HTTP**, and enter `ht
   }
 }
 ```
+
+### GitHub Copilot app
+
+On the [Deliverect listing in the GitHub MCP Registry](https://github.com/mcp/com.deliverect/deliverect), open the menu on **Install MCP server** and choose **Install in GitHub Copilot app**. Select **Allow**, then **Add server**, and **Sign in** next to the new server.
 
 ### GitHub Copilot in Visual Studio
 
@@ -84,7 +90,7 @@ Add **Deliverect** from the [ChatGPT plugin directory](https://chatgpt.com/plugi
 
 ### Perplexity
 
-On a paid plan, add a custom remote connector with the URL `https://mcp.deliverect.com/mcp`. In an organization, an admin has to allow members to add custom connectors first.
+On a paid plan, open **Deliverect** in [Perplexity's plugin directory](https://www.perplexity.ai/computer/plugins/connectors/deliverect) and select **+ Connect**.
 
 ### Other MCP clients
 
@@ -104,7 +110,7 @@ Your client opens a browser window the first time it connects. Sign in with your
 
 ## MCP Registry
 
-The server is listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.deliverect) as `com.deliverect/deliverect`. [`server.json`](server.json) is a copy of that entry.
+The server is listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.deliverect) as `com.deliverect/deliverect`, and in the [GitHub MCP Registry](https://github.com/mcp/com.deliverect/deliverect). [`server.json`](server.json) is a copy of the official registry entry.
 
 ## Support
 
